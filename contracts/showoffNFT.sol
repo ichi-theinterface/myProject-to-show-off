@@ -25,7 +25,7 @@ contract showoffNFT is ERC721URIStorage {
     _safeMint(msg.sender, newItemId);
 
     // Set the NFTs data.
-    _setTokenURI(newItemId, "ipfs://QmYLNt51d4dFPDXiEF8ZzUBTXzRv1dFws8mDTrSwuPLBin");
+    _setTokenURI(newItemId, "ipfs://QmSa95s7XFZrTpeSDmPUe8pdbawbgsD38drtmPh7GrfiFj/");
 
     // Increment the counter for when the next NFT is minted.
     _tokenIds.increment();

@@ -6,7 +6,16 @@ npx hardhat run scripts/deploy.js --network localhost
 npx hardhat run scripts/run.js
 npx hardhat run scripts/deploy.js
 
+C:\Windows\system32>nvm ls
 
+    17.8.0
+    17.3.0
+    15.2.1
+  * 14.19.1 (Currently using 64-bit executable)
+    14.18.1
+    12.22.10
+    11.13.0
+    10.18.0
 
 
 mkdir myProject-to-show-off
