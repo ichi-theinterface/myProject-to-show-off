@@ -17,7 +17,7 @@ contract showoffNFT is ERC721URIStorage {
   }
 
   // A function our user will hit to get their NFT.
-  function mintNFT() public {
+  function mintNFT(string memory tokenURI) public {
      // Get the current tokenId, this starts at 0.
     uint256 newItemId = _tokenIds.current();
 
@@ -25,7 +25,7 @@ contract showoffNFT is ERC721URIStorage {
     _safeMint(msg.sender, newItemId);
 
     // Set the NFTs data.
-    _setTokenURI(newItemId, "ipfs://QmSa95s7XFZrTpeSDmPUe8pdbawbgsD38drtmPh7GrfiFj/");
+    _setTokenURI(newItemId, tokenURI);
 
     // Increment the counter for when the next NFT is minted.
     _tokenIds.increment();

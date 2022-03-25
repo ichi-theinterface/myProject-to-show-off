@@ -5,12 +5,12 @@ const main = async () => {
   console.log("Contract deployed to:", nftContract.address);
 
   // Call the function.
-  let txn = await nftContract.mintNFT()
+  let txn = await nftContract.mintNFT("https://ipfs.io/ipfs/QmSa95s7XFZrTpeSDmPUe8pdbawbgsD38drtmPh7GrfiFj/1.json")
   // Wait for it to be mined.
   await txn.wait()
   console.log("Minted NFT #1")
 
-  txn = await nftContract.mintNFT()
+  txn = await nftContract.mintNFT("https://ipfs.io/ipfs/QmSa95s7XFZrTpeSDmPUe8pdbawbgsD38drtmPh7GrfiFj/2.json")
   // Wait for it to be mined.
   await txn.wait()
   console.log("Minted NFT #2")
