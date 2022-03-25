@@ -30,3 +30,66 @@ npm install @openzeppelin/contracts
 npm install dotenv 
 
 npx hardhat run scripts/sample-script.js
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+C:\Users\Ichi the Interface\Documents\myLearning\myProject-to-show-off>npx hardhat run scripts/deploy.js --network rinkeby
+You are using a version of Node.js that is not supported by Hardhat, and it may work incorrectly, or not work at all.
+
+Please, make sure you are using a supported version of Node.js.
+
+To learn more about which versions of Node.js are supported go to https://hardhat.org/nodejs-versions
+Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing "SPDX-License-Identifier: <SPDX-License>" to each source file. Use "SPDX-License-Identifier: UNLICENSED" for non-open-source code. Please see https://spdx.org for more information.
+--> contracts/showoffNFT.sol
+
+
+Compiled 1 Solidity file successfully
+Contract deployed to: 0x214Aa22dcb184E8217cff869fAcd538CEBAbD594
+Minted NFT #1
+Minted NFT #2
+
+C:\Users\Ichi the Interface\Documents\myLearning\myProject-to-show-off>
+C:\Users\Ichi the Interface\Documents\myLearning\myProject-to-show-off>
+C:\Users\Ichi the Interface\Documents\myLearning\myProject-to-show-off>
+C:\Users\Ichi the Interface\Documents\myLearning\myProject-to-show-off>
+C:\Users\Ichi the Interface\Documents\myLearning\myProject-to-show-off>nvm use 14.19.1
+exit status 5: Access is denied.
+
+exit status 5: Access is denied.
+
+
+C:\Users\Ichi the Interface\Documents\myLearning\myProject-to-show-off>nvm ls
+
+    17.8.0
+    17.3.0
+    15.2.1
+  * 14.19.1 (Currently using 64-bit executable)
+    14.18.1
+    12.22.10
+    11.13.0
+    10.18.0
+
+C:\Users\Ichi the Interface\Documents\myLearning\myProject-to-show-off>npx hardhat run scripts/deploy.js --network rinkeby
+Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing "SPDX-License-Identifier: <SPDX-License>" to each source file. Use "SPDX-License-Identifier: UNLICENSED" for non-open-source code. Please see https://spdx.org for more information.
+--> contracts/showoffNFT.sol
+
+
+Compiled 1 Solidity file successfully
+Contract deployed to: 0x0f5705Aef3B0D700ecEE81a5423AeaAfbA2596b5
+Minted NFT #1
+Minted NFT #2
+
+C:\Users\Ichi the Interface\Documents\myLearning\myProject-to-show-off>
+
+
